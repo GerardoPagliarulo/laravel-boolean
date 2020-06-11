@@ -1,0 +1,38 @@
+// MIXIN
+// Display flex
+@mixin disp-flex {
+    display: flex;
+}
+
+@mixin disp-flex-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin disp-flex-students {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+// GENERAL
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-content {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 1rem 4rem;
+}

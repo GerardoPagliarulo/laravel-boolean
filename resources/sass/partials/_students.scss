@@ -1,0 +1,8 @@
+.students {
+    @include disp-flex-students;
+    .student {
+        flex-basis: 47%;
+        display: inline-block;
+        color: $blue-boolean;
+    }
+}

@@ -1,0 +1,24 @@
+.navbar {
+    @include disp-flex-header;
+    padding: 1rem;
+    img {
+        width: 200px;
+    }
+    ul {
+        @include disp-flex;
+        list-style: none;
+        a {
+            display: inline-block;
+            padding: .8rem 1rem;
+            color: $blue-boolean;
+            text-transform: uppercase;
+            font-size: .875em;
+            border-bottom: 2px solid transparent;
+            transition: border .3s;
+            &.active,
+            &:hover {
+                border-bottom-color: $green-boolean;
+            }
+        }
+    }
+}
