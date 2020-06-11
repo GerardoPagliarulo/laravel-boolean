@@ -44,4 +44,48 @@ return [
         'descrizione' => 'Dopo la laurea magistrale in scienze umanistiche e sociali, si concentra sullo sviluppo di strategie marketing. 
             Decide di cambiare vita, questa volta puntando sullo sviluppo Front-End.'
     ],
+    [
+        'id' => 5,
+        'img' => 'https://www.boolean.careers/images/students/castellani.png',
+        'nome' => 'Tommaso Castellani',
+        'eta' => 30,
+        'genere' => 'm',
+        'azienda' => 'Pearch Digital',
+        'ruolo' => 'data scientist',
+        'descrizione' => 'Un passato da giocatore professionista di poker e una laurea in ingegneria gestionale alle spalle. 
+            Tommaso ha tramutato la sua passione per i numeri in un lavoro diventando data scientist a Dublino.'
+    ],
+    [
+        'id' => 6,
+        'img' => 'https://www.boolean.careers/images/students/antidormi.png',
+        'nome' => 'Nicholas Antidormi',
+        'eta' => 20,
+        'genere' => 'm',
+        'azienda' => 'Atoms Studi',
+        'ruolo' => 'web developer',
+        'descrizione' => 'Intraprende gli studi universitari in matematica per le sue doti analitiche, ma abbandona il percorso per concentrarsi 
+            su uno più pratico e orientato alla richiesta del mercato del lavoro: la programmazione.'
+    ],
+    [
+        'id' => 7,
+        'img' => 'https://www.boolean.careers/images/students/ortenzi.png',
+        'nome' => 'Daniela Ortenzi',
+        'eta' => 27,
+        'genere' => 'f',
+        'azienda' => 'RDS',
+        'ruolo' => 'web developer',
+        'descrizione' => 'Laureata in psicologia alla Sapienza di Roma con una nascente carriere nella SEO, 
+            Daniela si iscrive al corso Boolean. Ora lavora come web developer presso RDS Radio Dimensione Suono.'
+    ],
+    [
+        'id' => 8,
+        'img' => 'https://www.boolean.careers/images/students/quarticelli.png',
+        'nome' => 'Simone Quarticelli',
+        'eta' => 32,
+        'genere' => 'm',
+        'azienda' => 'VLC 2',
+        'ruolo' => 'web developer',
+        'descrizione' => 'Per supportare la famiglia, Simone inizia a lavorare come operaio da giovanissimo. Fortemente motivato a cambiare vita, 
+        per 6 mesi non stacca mai lo sguardo dal traguardo, distinguendosi per tenacia e resilienza.'
+    ],
 ];

@@ -6,6 +6,9 @@
         color: $blue-boolean;
         header {
             @include disp-flex;
+            img {
+                max-width: 200px;
+            }
         }
     }
 }
