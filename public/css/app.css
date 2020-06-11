@@ -26,7 +26,7 @@ a {
 }
 
 .navbar img {
-  width: 200px;
+  max-width: 200px;
 }
 
 .navbar ul {
@@ -49,6 +49,30 @@ a {
   border-bottom-color: #61ce4e;
 }
 
+.main-footer {
+  background-color: #1b3c59;
+}
+
+.main-footer .navbar-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.main-footer .navbar-footer .footer-brand img {
+  max-width: 200px;
+}
+
+.main-footer .navbar-footer ul {
+  list-style: none;
+}
+
+.main-footer .navbar-footer ul li a {
+  color: #fff;
+}
+
 .students {
   display: flex;
   flex-wrap: wrap;
@@ -59,5 +83,9 @@ a {
   flex-basis: 47%;
   display: inline-block;
   color: #1b3c59;
+}
+
+.students .student header {
+  display: flex;
 }
 

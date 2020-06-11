@@ -1,0 +1,18 @@
+.main-footer {
+    background-color: $bg-blue;
+    .navbar-footer {
+        @include disp-flex-navbar;
+        width: 1140px;
+        margin: 0 auto;
+        .footer-brand img {
+            max-width: 200px;
+        }
+        ul {
+            list-style: none;
+            li a {
+                color: $white;
+            }
+        }
+    }
+
+}

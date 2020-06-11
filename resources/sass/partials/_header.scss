@@ -1,8 +1,8 @@
 .navbar {
-    @include disp-flex-header;
+    @include disp-flex-navbar;
     padding: 1rem;
     img {
-        width: 200px;
+        max-width: 200px;
     }
     ul {
         @include disp-flex;

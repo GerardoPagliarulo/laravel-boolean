@@ -4,5 +4,8 @@
         flex-basis: 47%;
         display: inline-block;
         color: $blue-boolean;
+        header {
+            @include disp-flex;
+        }
     }
 }
