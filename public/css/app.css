@@ -1,1 +1,95 @@
-*{margin:0;padding:0;box-sizing:border-box}body{font-family:sans-serif}a{text-decoration:none}.main-content{max-width:1140px;margin:0 auto;padding:1rem 4rem}.navbar{display:flex;justify-content:space-between;align-items:center;padding:1rem}.navbar img{max-width:200px}.navbar ul{display:flex;list-style:none}.navbar ul a{display:inline-block;padding:.8rem 1rem;color:#1b3c59;text-transform:uppercase;font-size:.875em;border-bottom:2px solid transparent;transition:border .3s}.navbar ul a.active,.navbar ul a:hover{border-bottom-color:#61ce4e}.main-footer{background-color:#1b3c59}.main-footer .navbar-footer{display:flex;justify-content:space-between;align-items:center;width:1140px;margin:0 auto}.main-footer .navbar-footer .footer-brand img{max-width:200px}.main-footer .navbar-footer ul{list-style:none}.main-footer .navbar-footer ul li a{color:#fff}.students{display:flex;flex-wrap:wrap;justify-content:space-between}.students .student{flex-basis:47%;display:inline-block;color:#1b3c59}.students .student header{display:flex}.students .student header img{max-width:200px}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-content {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 1rem 4rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.navbar img {
+  max-width: 200px;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+}
+
+.navbar ul a {
+  display: inline-block;
+  padding: 0.8rem 1rem;
+  color: #1b3c59;
+  text-transform: uppercase;
+  font-size: 0.875em;
+  border-bottom: 2px solid transparent;
+  transition: border 0.3s;
+}
+
+.navbar ul a.active,
+.navbar ul a:hover {
+  border-bottom-color: #61ce4e;
+}
+
+.main-footer {
+  background-color: #1b3c59;
+}
+
+.main-footer .navbar-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.main-footer .navbar-footer .footer-brand img {
+  max-width: 200px;
+}
+
+.main-footer .navbar-footer ul {
+  list-style: none;
+}
+
+.main-footer .navbar-footer ul li a {
+  color: #fff;
+}
+
+.students {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.students .student {
+  flex-basis: 47%;
+  display: inline-block;
+  color: #1b3c59;
+}
+
+.students .student header {
+  display: flex;
+}
+
+.students .student header img {
+  max-width: 200px;
+}
+

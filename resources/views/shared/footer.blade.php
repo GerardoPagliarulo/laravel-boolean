@@ -11,5 +11,7 @@
             </ul>
         </div>
     </footer>
+    {{-- SCRIPTS --}}
+    @yield('scripts')
 </body>
 </html>

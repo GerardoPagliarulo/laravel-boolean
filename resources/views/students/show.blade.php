@@ -1,6 +1,6 @@
 @extends('layouts.main')
 @section('main-content')
-    <h1>{{ $student['nome'] . ','}} ex studente Boolean</h1>
+    <h1>{{ $student['nome'] . ':'}} ex studente Boolean.</h1>
     <div class="student">
         <header>
             <img src="{{ $student['img'] }}" alt="{{ $student['nome'] }}">
